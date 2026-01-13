@@ -10,7 +10,7 @@ Loan_repayment_data2 <- read_excel(
 df <- Loan_repayment_data2
 
 # -------------------------
-# Assign Risk Category
+# Assign Risk Category Below
 # -------------------------
 df <- df %>%
   mutate(
